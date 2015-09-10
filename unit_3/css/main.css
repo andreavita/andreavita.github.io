@@ -1,0 +1,27 @@
+body {
+	background-image: url("../images/fishtail.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	
+}
+
+h1 { 
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	color: #0A67B2;
+}
+#slogan {
+	font-style: italic;
+}
+
+p {
+	font-family: Arial, sans-serif;
+}
+
+ul {
+      list-style-type: none;
+}
+
+
