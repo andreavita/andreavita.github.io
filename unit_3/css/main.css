@@ -9,6 +9,7 @@ body {
 
 h1 { 
 	font-family: 'Roboto', sans-serif;
+	font-family: Arial, sans-serif;
 	font-weight: bold;
 	text-decoration: none;
 	color: #0A67B2;
@@ -22,8 +23,7 @@ p {
 }
 
 ul {
-      font-family: 'Roboto', sans-serif;
-      list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
 }
-
 
