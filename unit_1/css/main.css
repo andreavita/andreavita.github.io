@@ -1,9 +1,45 @@
-body {
-  background-color: orange;
-}
 h1 { 
-  color: green;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	background: gray;
+	padding: 1em;
+	text-decoration: none;
+	color: rgb(153,29,255);
 }
-p { 
-  color:blue;
+#slogan {
+	font-style: italic;
+}
+
+#wrapper {
+	background-color: #660033;
+	width: 960px;
+	margin: 0 auto;
+}
+
+p {
+	font-family: 'Arial', sans-serif;
+	background: pink;
+	font-size: 18px;
+}
+
+span {
+	color: red;
+	font-size: 1.5em;
+}
+
+strong, em {
+	background: yellow;
+}
+
+ul {
+    font-family: 'Arial', sans-serif;
+    list-style-type: none;
+    background: purple;
+}
+
+li{
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	background: purple;
+	display: inline;
 }
