@@ -1,23 +1,28 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	font-family: Times, serif;
+	font-family: Arial, sans-serif;
 	font-size: 16px;
 }
 nav {
 	background-color: gray;
-	text-align: center;
+	text-align: left;
 	padding: 1em;
 	margin-top: 1em;
 	margin-bottom: 1em;
 	margin-left: 0;
 	margin-right: 0;
 }
+
 footer {
 	background-color: gray;
-	text-align: center;
+	text-align: left;
 	padding: 1em;
-	margin: 1em 0;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
 }
+
 h1 {
 	font-size: 3em;
 	font-weight: normal;
@@ -26,21 +31,34 @@ h1 {
 }
 
 h2 {
-	font-size: 1em;
+	font-size: 1.5em;
 	font-weight: normal;
+	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
 h3 {
-	font-size: 1em;
+	font-size: 1.5em;
 	font-weight: normal;
 }
 
 a {
 	font-size: 1.5em;
-	color: black;
+	color: white;
+	text-decoration: none;
+	margin: .5em .5em;
 }
+
+a:hover{
+	color: #aaaaaa;
+}
+
+p {
+	line-height: 1.3em;
+}
+
 img {
-	width:100%;
+	width:80%;
 }
 .wrapper {
 	max-width:75em;
@@ -50,11 +68,18 @@ img {
 .photos {
 	padding: 2em;
 	background-color: white;
-	border: 1em;
+	border: 3em;
 	display: block;
 	float: left;
 	width: 33.33%;
 }
+
+.columns {
+	float: left;
+	max-width: 33%;
+	padding: 2em;
+}
+
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 
