@@ -1,0 +1,237 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	font-size: 16px;
+}
+nav {
+	background-color: #888C93;
+	text-align: center;
+	padding: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+footer {
+	background-color: #888C93;
+	text-align: center;
+	padding: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+h1 {
+	font-size: 1.5em;
+	color: white;
+	font-weight: normal;
+	padding: 2em;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1em;
+	font-weight: normal;
+	margin-bottom: .5em;
+	color: #888C93;
+
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 1em;
+	padding: .5em;
+	margin-right: 2em;
+}
+
+a {
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+	margin: 1em;
+}
+
+a:hover{
+	color: #aaaaaa;
+}
+
+a img {
+	display: block;
+}
+
+p {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	padding: 1em;
+	text-align: left;
+	margin-right: 4em;
+}
+
+li {
+	margin-left: 2em;
+}
+
+section {
+}
+
+#logo {
+	margin: 0 auto;
+	width: 20%;
+	padding: 1em;
+}
+
+.about{
+	background-color: #2F5D7F;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+#locationslist {
+	text-align: center;
+}
+
+#photoinfo {
+	background-color: #DCDEE2;
+	margin: 3em;
+	display: inline-block;
+	text-align: center;
+
+}
+
+.photoleft {
+	float: left;
+	margin-right: 4em;
+	width: 50%;	
+}
+
+.list {
+	display: inline-block;
+	color: #2F5D7F;
+	background-color: white;
+	width: 7em;
+	padding: 1em;
+}
+
+#wrapper {
+	margin: 0 auto;
+}
+
+#hero {
+	float: left;
+	height: 400px;
+}
+
+.photos {
+	display: inline-block;
+	vertical-align: middle; 
+	max-width: 33.33%;
+}
+
+.gallery {
+	display: inline-block;
+	vertical-align: middle; 
+	margin: 2em 2em 0em 2em;
+}
+
+.columns {
+	float: left;
+	max-width: 50%;
+	padding: 2em;
+}
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+@media only screen and (max-width: 480px) {
+	a {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	display: block;
+}
+
+section {
+	width: 100%;
+}
+
+#logo {
+	margin: 0 auto;
+	width: 70%;
+	padding: 1em;
+}
+
+#about{
+	width: 100%;
+}
+
+#hero {
+	float: none;
+	height: auto;
+}
+
+.list {
+	display: block;
+	color: #2F5D7F;
+	background-color: white;
+	width: auto;
+}
+
+.photos {
+	display: block;
+	max-width: 100%;
+}
+
+img {
+	width: 100%
+}
+
+#photoinfo {
+	background-color: #DCDEE2;
+	display: block;
+	width: auto;
+	margin: 0;
+}
+
+.photoleft {
+	float: none;
+	width: 100%;
+	margin: 0;	
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: left;
+	margin: 1em;
+	padding: .5em;
+}
+
+p {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	padding: .5em;
+	text-align: left;
+	margin: 1em;
+}
+
+.gallery {
+	display: block;
+	vertical-align: middle; 
+	margin: none;
+
+
+}
+
+
+
