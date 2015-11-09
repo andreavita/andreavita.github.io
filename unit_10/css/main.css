@@ -154,7 +154,7 @@ section {
 	clear: both;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 320px) {
 	a {
 	margin-top: 1em;
 	margin-bottom: 1em;
