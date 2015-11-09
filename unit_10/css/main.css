@@ -54,7 +54,7 @@ a {
 	font-size: 1.5em;
 	color: white;
 	text-decoration: none;
-	margin: 1em;
+	margin:1em;
 }
 
 a:hover{
@@ -63,6 +63,7 @@ a:hover{
 
 a img {
 	display: block;
+	width:100%;
 }
 
 p {
@@ -126,9 +127,10 @@ li {
 }
 
 .photos {
-	display: inline-block;
-	vertical-align: middle; 
-	max-width: 33.33%;
+	float:left;
+	margin:0;
+	padding:.1em;
+	width: 33.33%;
 }
 
 .gallery {
@@ -139,7 +141,7 @@ li {
 
 .columns {
 	float: left;
-	max-width: 50%;
+	width: 50%;
 	padding: 2em;
 }
 
